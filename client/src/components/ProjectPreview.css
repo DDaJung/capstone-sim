@@ -1,0 +1,13 @@
+/* client/src/components/ProjectPreview.css (append/replace safe) */
+.op-card { position: relative; border-radius: 12px; padding: 16px; background:#fff; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+.op-card--clickable { cursor: pointer; transition: box-shadow .15s ease, transform .15s ease; }
+.op-card--clickable:hover { box-shadow: 0 8px 24px rgba(0,0,0,.08); transform: translateY(-1px); }
+
+.op-card-actions { position:absolute; top: 8px; right: 8px; display:flex; gap:6px; }
+.op-btn { border:0; padding:6px 8px; border-radius:8px; background:#eee; cursor:pointer; }
+.op-btn-danger { background:#ffe8e8; }
+.op-card__header { display:flex; align-items:center; gap:10px; margin-bottom:8px; }
+.op-badge { width:36px; height:36px; border-radius:50%; display:flex; align-items:center; justify-content:center; background:#eef2ff; font-weight:700; }
+.op-title { font-weight:700; font-size:16px; }
+.op-desc { color:#555; font-size:14px; margin-top:6px; }
+.op-meta { margin-top:10px; display:flex; gap:8px; font-size:12px; color:#666; }

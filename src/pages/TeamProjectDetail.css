@@ -1,0 +1,113 @@
+.team-project-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dates p {
+    margin: 0;
+    color: #555;
+}
+
+.top-section {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    flex: 1;
+    min-width: 280px;
+}
+
+.progress-bar {
+    background-color: #eee;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.progress-bar .filled {
+    background-color: #3498db;
+    height: 100%;
+    transition: width 0.4s ease;
+}
+
+.progress-text {
+    margin-top: 8px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bars {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 120px;
+    margin-top: 10px;
+}
+
+.bar {
+    width: 40px;
+    border-radius: 6px 6px 0 0;
+    text-align: center;
+    font-size: 0.8rem;
+    color: white;
+    padding-top: 4px;
+}
+
+.bar.high {
+    background-color: #e74c3c;
+}
+
+.bar.medium {
+    background-color: #f39c12;
+}
+
+.bar.low {
+    background-color: #2ecc71;
+}
+
+.gantt-box {
+    min-height: 180px;
+    background-color: #f9f9f9;
+    border: 1px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+}
+
+.workload-box table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+.workload-box th,
+.workload-box td {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.workload-box th {
+    background-color: #f0f0f0;
+    font-weight: 600;
+}
+
+.gantt-box div {
+    min-height: 300px;
+}

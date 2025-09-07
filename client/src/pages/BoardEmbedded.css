@@ -1,0 +1,11 @@
+
+/* Embedded Project Board styles */
+.proj-board { display:flex; flex-direction:column; gap:12px; }
+.pb-form { display:grid; grid-template-columns: 1fr; gap:8px; background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:12px; }
+.pb-list { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:10px; }
+.pb-item { background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:12px; }
+.pb-head { display:flex; justify-content:space-between; align-items:center; }
+.pb-meta { color:#6b7280; font-size:12px; }
+.pb-body { white-space:pre-wrap; margin-top:6px; color:#374151; }
+.pb-actions { display:flex; gap:8px; margin-top:8px; }
+.btn { padding:6px 10px; border:1px solid #d1d5db; border-radius:8px; background:#f9fafb; cursor:pointer; }

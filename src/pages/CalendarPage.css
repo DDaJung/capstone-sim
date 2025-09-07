@@ -1,0 +1,80 @@
+.calendar-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 20px;
+}
+
+/* 탭 버튼 */
+.calendar-tabs {
+  display: flex;
+  gap: 10px;
+}
+
+.calendar-tabs button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.calendar-tabs button.active {
+  background-color: #fff;
+  border: 2px solid #ccc;
+}
+
+/* 캘린더 내용 전체 영역 */
+.calendar-content {
+  flex-grow: 1;
+}
+
+/* 캘린더 박스 */
+.calendar-box {
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  height: 700px;
+  /* 고정 높이 */
+  display: grid;
+  gap: 10px;
+}
+
+/* 월간 캘린더 7x5 구조 */
+.calendar-monthly {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+/* 주간 캘린더 7일 */
+.calendar-weekly {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+/* 날짜 셀 */
+.calendar-cell {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 12px;
+  min-height: 80px;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.calendar-cell .date {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.calendar-cell .event {
+  font-size: 13px;
+  background-color: #d1ecf1;
+  padding: 4px 8px;
+  border-radius: 6px;
+  color: #0c5460;
+}

@@ -1,0 +1,3 @@
+
+/* optional: small tweaks for preview action buttons */
+.op-actions .btn { background:transparent; border:none; cursor:pointer; font-size:16px; }

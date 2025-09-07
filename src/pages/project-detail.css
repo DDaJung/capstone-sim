@@ -1,0 +1,44 @@
+.pd-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.pd-head {
+    background: #fff;
+    border-radius: 14px;
+    padding: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, .06);
+}
+
+.pd-meta {
+    color: #666;
+    margin-top: 6px;
+}
+
+.pd-tabs {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.pd-tabs a {
+    padding: 8px 12px;
+    border-radius: 999px;
+    background: #eef1f5;
+    text-decoration: none;
+    color: #333;
+}
+
+.pd-tabs a.active {
+    background: #27ae60;
+    color: #fff;
+}
+
+.pd-body {
+    background: #fff;
+    border-radius: 14px;
+    padding: 16px;
+    min-height: 40vh;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, .06);
+}

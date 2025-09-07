@@ -1,0 +1,38 @@
+.dash {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.dash-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-primary {
+    background: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dash-empty {
+    display: grid;
+    place-items: center;
+    height: 40vh;
+    color: #666;
+}
+
+.dash-sub {
+    margin: 8px 0;
+    color: #34495e;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
+}
